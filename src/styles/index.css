@@ -9,3 +9,72 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.Barrita{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;       
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    padding: 0 !important;
+}
+.Modulo {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;       
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    padding: 10px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+    text-align: center;      
+    height: 100vh; 
+    padding-bottom: 200px;
+}
+.Rojo {
+    background-color: #5c0304;
+    width: 200px;
+    height: 180px;
+    border-radius: 110px;
+
+}
+.Amarillo {
+    background-color: #f7c503;
+    width: 200px;
+    height: 180px;
+    border-radius: 110px;
+}
+.Verde {
+    background-color: #08933f;
+    width: 200px;
+    height: 180px;
+    border-radius: 110px;
+}
+.RojoEncendido {
+    background-color: #5c0304;
+    width: 200px;
+    height: 180px;
+    border-radius: 110px;
+    filter: brightness(1.5) drop-shadow(0 0 15px rgba(255, 255, 255, 0.7));
+}
+.AmarilloEncendido {
+    background-color: #f7c503;
+    width: 200px;
+    height: 180px;
+    border-radius: 110px;
+    filter: brightness(1.5) drop-shadow(0 0 15px rgba(255, 255, 255, 0.7));
+}
+.VerdeEncendido {
+    background-color: #08933f;
+    width: 200px;
+    height: 180px;
+    border-radius: 110px;
+    filter: brightness(1.5) drop-shadow(0 0 15px rgba(255, 255, 255, 0.7));
+}
